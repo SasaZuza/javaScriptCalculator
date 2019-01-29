@@ -1,5 +1,5 @@
 body{
-    background: url(https://cdn.lifehack.org/wp-content/uploads/2015/09/02131828/typewriter-801921_1280.jpg);
+    background: url(./img/work-desk.jpg);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -11,48 +11,52 @@ body{
   
   h2{
     margin-top: 100px;
-    color: #6e9100;
+    color: #ECF39E;
+    font-family: 'Acme', sans-serif;
     font-weight: bold;
-    font-size:3em;
-    text-shadow: 2px 4px 5px black;
+    font-size:4em;
+    text-shadow: 2px 4px 5px darkslategrey;
   }
   
   #calculator{
-    background-color: #616630;
+    background-color: #31572C;
     width: 250px;
-    height: 325px;
+    height: 300px;
     border: 1px solid black;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 18px;
     margin: 25px auto;
     box-shadow: 0px 0px 3px 6px black;
   }
   
-  #display{
+  #display{    
     margin-bottom: 20px;
     height: 35px;
     width: 10em;
-    border: 1px solid black;
+    border: 1px solid #90A955;
     border-radius: 5px;
-    box-shadow: 0px 0px 1px 1px black;
+    box-shadow: 0px 0px 1px 2px #90A955;
     text-align: right;
+    font-family: 'Acme', sans-serif;
     font: 20px bold;
   }
   
   #keys{
+    font-family: 'Acme', sans-serif;
     width: 41px;
     height: 35px;
     margin: 4px;
-    box-shadow: 0px 0px 2px 1px black;
+    box-shadow: 0px 0px 2px 1px #ECF39E;
     border-radius: 2px;
     outline: none;
   }
   
   #equals{
-    width: 92px;
+    font-family: 'Acme', sans-serif;
+    width: 97px;
     height: 35px;
     margin: 4px;
-    box-shadow: 0px 0px 2px 1px black;
+    box-shadow: 0px 0px 2px 1px #ECF39E;
     border-radius: 2px;
     outline: none;
   }
